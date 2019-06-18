@@ -1,0 +1,23 @@
+{
+  "name": "bable7",
+  "version": "1.0.0",
+  "description": "bable7",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pigongting/engine.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "rmdir /s/q build&&set NODE_ENV=development&&babel --watch src --out-dir build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/preset-typescript": "^7.3.3"
+  }
+}
